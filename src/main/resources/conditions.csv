@@ -1,0 +1,8 @@
+\==com.digdes.school.conditions.EqualCondition
+!\==com.digdes.school.conditions.NotEqualCondition
+like=com.digdes.school.conditions.LikeCondition
+ilike=com.digdes.school.conditions.IlikeCondition
+>\==com.digdes.school.conditions.MoreOrEqualCondition
+<\==com.digdes.school.conditions.LessOrEqualCondition
+>=com.digdes.school.conditions.MoreCondition
+<=com.digdes.school.conditions.LesCondition

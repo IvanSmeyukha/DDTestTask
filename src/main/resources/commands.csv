@@ -1,0 +1,4 @@
+INSERT=com.digdes.school.commands.InsertCommand
+UPDATE=com.digdes.school.commands.UpdateCommand
+DELETE=com.digdes.school.commands.DeleteCommand
+SELECT=com.digdes.school.commands.SelectCommand
