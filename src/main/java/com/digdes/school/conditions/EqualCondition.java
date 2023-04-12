@@ -13,13 +13,13 @@ public class EqualCondition implements Condition {
     @Override
     public boolean check(Object compared, Object value) {
         if (value != null)
-            if (compared instanceof String) {
+            if (value instanceof String) {
                 return compared.equals(value);
-            } else if (compared instanceof Long) {
+            } else if (value instanceof Long) {
                 return (long) compared == (long) value;
-            } else if (compared instanceof Double) {
+            } else if (value instanceof Double) {
                 return (double) compared == (double) value;
-            } else if (compared instanceof Boolean) {
+            } else if (value instanceof Boolean) {
                 return (boolean) compared == (boolean) value;
             }
         return false;

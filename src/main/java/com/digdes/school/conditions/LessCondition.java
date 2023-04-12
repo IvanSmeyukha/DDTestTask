@@ -17,10 +17,10 @@ public class LessCondition implements Condition {
     public boolean check(Object compared, Object value) throws OperatorNotSupportTypeException {
         try {
         if (value != null)
-            if (compared instanceof Long) {
+            if (value instanceof Long) {
                 return (long) value < (long) compared;
-            } else if (compared instanceof Double) {
-                return (long) value < (double) compared;
+            } else if (value instanceof Double) {
+                return (double) value < (double) compared;
             }
         return false;
         } catch (ClassCastException e){

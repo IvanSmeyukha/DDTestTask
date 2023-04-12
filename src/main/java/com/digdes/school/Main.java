@@ -3,6 +3,9 @@ package com.digdes.school;
 public class Main {
 
     // Важно, что одинарные кавычки такие ' , а не такие `.
+    // Тип колонки и тип объекта добовляемого в нее или сравниваемого с ней должн бть одинаковы.
+    // То есть для 'lastname' подходят только значения в одинарнх кавычках, обоначающих строку.
+    // А для cost только вечественные числа, например 10.0, а не 10
     public static void main(String... args){
         JavaSchoolStarter starter = new JavaSchoolStarter();
         try {
